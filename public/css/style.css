@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: #e0aaff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+a{
+    cursor: pointer;
+}
+form input{
+    outline: none;
+}
+form select{
+    outline: none;
+    border: 1px solid black;
+}
+/*  */
+.col-1-2{
+    width: 49.5%;
+    float: left;
+}
+.clear{
+    clear: both;
+}
+.flex-space{
+    display: flex;
+    justify-content: space-between;
+}
+.flex{
+    display: flex;
+}
+/*  */
+
+.formulario{
+    position: relative;
+    width: 700px;
+    margin: 1%;
+    padding: 20px;
+    background: #9d4edd;
+    border-radius: 5px;
+
+}
+#form-select{
+    display: none;
+    flex-direction: column;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    padding: 7px;
+    border: 1px solid black;
+    margin: 1% 0;
+    border-radius: 3px;
+}
+form .formulario .form-group input{
+    width: 100%;
+    padding-left: 10px;
+    background: #9d4edd;
+    border: none;
+    color: black;
+    border-bottom: 2px solid black;
+}
+.card{
+    background: #002C47;
+    position: absolute;
+    top: -90px;
+    left: 100px;
+    width: 500px;
+    background: white;
+    min-height: 100px;
+    padding: 10px 20px;
+}
+.dados{
+    position: relative;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#validc{
+    padding: 0 7px;
+}
